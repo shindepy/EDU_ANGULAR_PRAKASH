@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
     template: `
         <div class="container">
          This is my first angular assignment
+         <app-product></app-product>
         </div>
     ` 
 })
