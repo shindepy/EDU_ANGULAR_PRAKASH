@@ -41,7 +41,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr *ngFor="let prod of products">
+                            <tr *ngFor="let prod of products | filterData:filterText">
                                 <td>
                                     <img style="width: 50px;height: 50px;" [src]='prod.imageUrl'
                                         *ngIf="showImage"/>

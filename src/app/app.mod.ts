@@ -6,6 +6,7 @@ import { AppNewComponent } from './app.comp';
 import { ProductComponent } from './products/product.comp';
 import { MyUppercasePipe } from './products/prodUpper.pipe';
 import { AddValuePipe } from './products/addValue.pipe';
+import { FilterPipe } from './products/filterData.pipe';
 
 @NgModule({
   imports: [
@@ -13,7 +14,7 @@ import { AddValuePipe } from './products/addValue.pipe';
     FormsModule
   ],
   declarations: [
-    AppNewComponent,ProductComponent,MyUppercasePipe,AddValuePipe
+    AppNewComponent,ProductComponent,MyUppercasePipe,AddValuePipe,FilterPipe
   ],
   bootstrap: [AppNewComponent]
 })
